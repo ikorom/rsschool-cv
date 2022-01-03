@@ -20,3 +20,10 @@ function areaOfTriangle(a, b, c) {
             }
         }
 ```
+## Work experience:
+* [GitHub cv project](https://ikorom.github.io/rsschool-cv/cv)
+## Education and courses:
+* started studying at school RSSchool
+## Languages
+* Russian - native speaker.
+* English - A1 Elementary.
