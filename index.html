@@ -5,14 +5,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Igor Omelchenko</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<header></header>
-<main></main>
-<footer></footer>
+
 
 <body>
+    <header class="header">
+        <div class="avatar">
+            <img src="./img/avatar.png" alt="my avatar">
+        </div>
 
+        <div class="navigation">
+            <ul>
+                <li>About Me</li>
+                <li>Work experience</li>
+                <li>Contacts</li>
+            </ul>
+
+        </div>
+        <h1>Igor Omelchenko</h1>
+
+    </header>
+    <main>
+        <div class="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>Location: Kaliningrad, Russian Federation</li>
+                <li>Telegramm: <a href="https://t.me/Porokq">@Porokq</a> </li>
+
+                <li>GitHub: <a href="https://github.com/ikorom">ikorom</a></li>
+
+            </ul>
+
+        </div>
+        <div class="aboutme">
+            <h2>About Me</h2>
+            <p>
+                My goal is to learn the profession of frontend, and answer the question of whether a humanitarian can become a truly high-class specialist in engineering.
+            </p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git/GitHub</li>
+                <li>Zeplin</li>
+            </ul>
+        </div>
+        <div class="code">
+            <h2>Code Examples</h2>
+            <code>
+                function areaOfTriangle(a, b, c) {
+                if (a < b + c && b < a + c && c < a + b) {
+                    return (a + b + c) / 2;
+                } else {
+                    return 'The triangle does not exist';
+                }
+            }</code>
+        </div>
+        <div class="work">
+            <h2>Work experience:</h2>
+            <ul>
+                <li>
+                    <a href="https://ikorom.github.io/rsschool-cv/cv">GitHub cv project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="education">
+            <h2>Education and courses:</h2>
+            <ul>
+                <li>started studying at school RSSchool</li>
+            </ul>
+        </div>
+        <div class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian - native speaker.</li>
+                <li>English - A1 Elementary.</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/ikorom">ikorom</a>
+        <a href="https://rs.school/js/"><img src="./img/logo.svg" alt="RSSchool"></a>
+
+    </footer>
 </body>
 
 </html>
