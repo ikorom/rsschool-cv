@@ -1,1 +1,2 @@
-# https://ikorom.github.io/rsschool-cv/cv
+# https://ikorom.github.io/rsschool-cv/
+
