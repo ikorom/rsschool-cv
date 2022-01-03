@@ -11,7 +11,8 @@ My goal is to learn the profession of frontend, and answer the question of wheth
 * Git/GitHub
 * Zeplin
 ## Code Examples
-```function areaOfTriangle(a, b, c) {
+```
+function areaOfTriangle(a, b, c) {
             if (a < b + c && b < a + c && c < a + b) {
                 return (a + b + c) / 2;
             } else {
