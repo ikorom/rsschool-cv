@@ -57,6 +57,13 @@ main {
     text-align: center;
 }
 
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    text-align: left;
+}
+
 div h2 {
     font-size: 3em;
 }
@@ -64,8 +71,6 @@ div h2 {
 main div {
     margin-top: 1em;
 }
-
-code {}
 
 footer {
     display: flex;
@@ -76,6 +81,12 @@ footer {
     width: 100%;
     height: 5em;
     background-color: coral;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .wrap_footer {
